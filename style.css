@@ -24,6 +24,7 @@
 #visit-us-card-img {
 	width: 800px;
 	height: 300px;
+	opacity: 0.5;
 }
 .center-img {
     margin-left: auto;
