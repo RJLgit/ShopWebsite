@@ -11,6 +11,12 @@
 #sign-out-nav {
 	display: none;
 }
+h3 {
+	color: #228B22;
+}
+.bg-custom {
+	background: #228B22;
+}
 
 /*Index Html CSS*/
 .carousel-inner img {
