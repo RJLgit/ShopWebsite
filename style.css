@@ -44,3 +44,12 @@ h3 {
  .store-details-divs {
  	margin-top: 20px;
  }
+ /*Online store Html CSS*/
+#shop-now-card {
+	margin-top: 60px;
+}
+#shop-now-card-img {
+	width: 800px;
+	height: 300px;
+	opacity: 0.5;
+}
