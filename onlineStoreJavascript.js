@@ -19,6 +19,13 @@ function populateWhenOneClicked() {
 	imageFour.src = "Images/Items/MotteCastleModel.PNG";
 	imageFive.src = "Images/Items/NormanModel.PNG";
 	imageSix.src = "Images/Items/PyramidModel.PNG";
+
+	itemTextOne.textContent = "Boat Model £79.99"
+	itemTextTwo.textContent = "German Soldier Model £11.99"
+	itemTextThree.textContent = "German Soldier Model £11.99"
+	itemTextFour.textContent = "Motte Castle Model £49.99"
+	itemTextFive.textContent = "Norman Model £8.99"
+	itemTextSix.textContent = "Pyramid Model £14.99"
 }
 
 function init() {
