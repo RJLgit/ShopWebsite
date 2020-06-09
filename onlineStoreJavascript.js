@@ -28,6 +28,13 @@ function populateWhenOneClicked() {
 	itemTextFour.textContent = "Motte Castle Model £49.99";
 	itemTextFive.textContent = "Norman Model £8.99";
 	itemTextSix.textContent = "Pyramid Model £14.99";
+
+	buttonTwo.className = buttonTwo.className.replace(/\bactive\b/g, "");
+	let arr = buttonOne.className.split(" ");
+  if (arr.indexOf("active") == -1) {
+    buttonOne.className += " " + "active";
+  }
+
 }
 
 function populateWhenTwoClicked() {
@@ -44,6 +51,12 @@ function populateWhenTwoClicked() {
 	itemTextFour.textContent = "Swat Model £9.99";
 	itemTextFive.textContent = "Viking Model £8.99";
 	itemTextSix.textContent = "WW1 Model £13.99";
+
+	buttonOne.className = buttonTwo.className.replace(/\bactive\b/g, "");
+	let arr = buttonTwo.className.split(" ");
+  if (arr.indexOf("active") == -1) {
+    buttonTwo.className += " " + "active";
+  }
 }
 
 
