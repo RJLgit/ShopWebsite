@@ -46,6 +46,8 @@ function populateWhenTwoClicked() {
 	itemTextSix.textContent = "WW1 Model £13.99";
 }
 
+
+
 function init() {
 	imageOne = document.querySelector('#storeItemImageOne');
 	imageTwo = document.querySelector('#storeItemImageTwo');
@@ -59,8 +61,10 @@ function init() {
 	itemTextFour = document.querySelector('#storeItemTextFour');
 	itemTextFive = document.querySelector('#storeItemTextFive');
 	itemTextSix = document.querySelector('#storeItemTextSix');
-	buttonOne = document.querySelector('#storeItemButtonOne');
-	buttonTwo = document.querySelector('#storeItemButtonTwo');
+	buttonOne = document.querySelector('#storeListGroupButtonOne');
+	buttonTwo = document.querySelector('#storeListGroupButtonTwo');
+	buttonOne.addEventListener('click', populateWhenOneClicked);
+	buttonTwo.addEventListener('click', populateWhenTwoClicked);
 	populateWhenOneClicked();
 }
 
