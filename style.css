@@ -56,3 +56,12 @@ h3 {
 .storeItemRows {
 	margin-top: 20px;
 }
+ /*Log in or register Html CSS*/
+ #sign-in-card {
+	margin-top: 60px;
+}
+#signin-card-img {
+	width: 800px;
+	height: 300px;
+	opacity: 0.5;
+}
